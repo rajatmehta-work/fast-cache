@@ -1,6 +1,10 @@
 package lru
 
-import "sync"
+import (
+	"sync"
+
+	"github.com/rajatmehta-work/fast-cache/lru"
+)
 
 type LRU[K comparable, V any] interface {
 	Get(key K) V
@@ -18,7 +22,9 @@ type lryMem[K comparable, V any] struct {
 
 func New(opt ...Options) LRU {
 	lru := lryMem{}
-	applyOptions(lru)
+	for _, opt := range options {
+		opt(lru.option)
+	}
 	return LRU(lru)
 }
 
@@ -48,9 +54,6 @@ func (l lryMem) Put(key K, value V) {
 			l.sequence.Append(newRef)
 		}
 	}
-	
-5
-
 	return nil
 }
 func (l lryMem) Del(key K) {
