@@ -1,4 +1,2 @@
-github.com/rajatmehta-work/go-lib v0.0.0-20231029191359-4374853de68c h1:KXttYJbJFzdLakrNydXJHLCiJ0ZHS/0Ns/Jybpcp/7Q=
-github.com/rajatmehta-work/go-lib v0.0.0-20231029191359-4374853de68c/go.mod h1:v0KqzXaH3A7o83mUtC499ZQezRJlNrj5XqnDgFh75ZM=
-github.com/rajatmehta-work/go-lib v0.0.0-20231029191759-fba84b0cb364 h1:lADDVP65/UcWUBNbJEcfJ8KlIrBeUPIFNs3jOkM5p1o=
-github.com/rajatmehta-work/go-lib v0.0.0-20231029191759-fba84b0cb364/go.mod h1:v0KqzXaH3A7o83mUtC499ZQezRJlNrj5XqnDgFh75ZM=
+github.com/rajatmehta-work/go-lib v0.0.0-20231029193342-2a245b05eca5 h1:2iiDuHicYCpbZbDAIl/eeOI3gxpEEuWruSrzimWVDyg=
+github.com/rajatmehta-work/go-lib v0.0.0-20231029193342-2a245b05eca5/go.mod h1:v0KqzXaH3A7o83mUtC499ZQezRJlNrj5XqnDgFh75ZM=
